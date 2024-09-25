@@ -60,3 +60,8 @@
 - Updates
     - Migrated 'index.html' from 'src/' => root
 
+#### 1119H
+- Updates
+    - Updated pages/sites 'src/pages/about-me.html', 'src/pages/blog/posts/2024-09-21/1606H.html', 'src/pages/blog/table-of-contents.html'
+        + Replaced path to index.html
+
