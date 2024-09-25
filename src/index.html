@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portfolio Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Define website metadata to set the website's width (horizontal length) to the widget of the device -->
+        <script defer src="assets/lib/index.js" type="text/javascript" alt="javascript"></script> <!-- Defer the loading to after the DOM is done loading before running the script -->
+        <link href="assets/style/index.css" type="text/css" rel="stylesheet" /> <!-- Import external CSS file -->
+    </head>
+
+    <body class="font-family-monospace">
+        <!--
+            Body Header
+        -->
+        <div id="portfolio-header" class="font-bold sticky">
+        </div>
+
+        <div id="portfolio-Navbar" class="font-bold top-navbar sticky">
+            <!-- Navigation Bar -->
+            <a href="index.html" class="active">Home</a>
+            <a href="pages/about-me.html">About Me</a>
+            <a href="#portfolio-projects">Projects</a>
+            <a href="#portfolio-contacts">Contacts</a>
+            <a href="pages/blog/table-of-contents.html">Blog Posts and Archives</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <br/>
+
+        <!--
+            Body
+        -->
+        <div id="portfolio-body" class="font-bold">
+
+            <div id="portfolio-introduction">
+                <!--
+                    About Me - Introduction
+                -->
+                <h2 class="text-position-center">Introduction</h2>
+
+                <div class="container">
+                    <!--
+                        Flex box for Profile Picture
+                    -->
+                    <div class="font-bold box portfolio-containers">
+                        <img src="" alt="Profile Picture Here" class="arrange-horizontal profile-container profile-picture"></img>
+                        <div class="visible-text" style="margin: 10px;">
+                            <p>A technology enthusiast since primary school, I have been following the tech field for a good 18 years excluding my early years.</p>
+                            <p>In 2015, I started getting fully into Software Development, Networking and Technical/IT Logistics, Cybersecurity in 2019, and I have not stopped ever since.</p>
+                            <p>From reading up on the latest news involving Programming and Cybersecurity to creating projects on the daily basis, I have been keeping myself updated to the field/industry every second of every day.</p>
+                            <p>Graduated from University of Wollongong from the (Double) Degree in Bachelor of Computer Science - Digital Systems Security and Cyber Security in 2023 September, I am now a Freelancer whilst in search for a role in Software Engineering/Programming and Cybersecurity with focus in Blue Teaming (Defensive).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br/>
+
+            <div id="portfolio-projects" style="width: 100%">
+                <!--
+                    Portfolio Projects
+                -->
+                <h2 class="text-position-center">Portfolio Projects</h2>
+
+                <br/>
+
+                <div class="container">
+                    <div id="portfolio-project-entry-1" class="portfolio-project-entries font-bold box max-width-half visible-text">
+                        <!-- Set current portfolio project entry's attributes and definitions -->
+                        <a href="https://github.com/Thanatisia/SharedSpace" id="portfolio-project-entry-1-name" class="font-bold text-position-left">GitHub - Thanatisia/SharedSpace</p></a>
+                        <div class="container">
+                            <!--
+                                Flex box for Screenshots
+                            -->
+                            <div class="font-bold box">
+                                <img id="portfolio-project-entry-1-screenshots">Screenshot prototype here</img>
+                            </div>
+
+                            <!--
+                                Flex box for description
+                            -->
+                            <div class="box text-position-left">
+                                <p class="text-position-center">Description</p>
+                                <p id="portfolio-project-entry-1-description" class="text-position-left">Complete compilation/compendium of documentations for various topics and categories to be a one-stop-shop reference</p>
+                            </div>
+
+                            <!--
+                                Flex box for project metadata
+                            -->
+                            <div id="portfolio-project-entry-1-metadata" class="box text-position-left max-width-half">
+                                <div class="group">
+                                    <label class="arrange-horizontal" style="margin-bottom: 10px;">Category:</label>
+                                    <span id="portfolio-project-entry-1-category">Documentation</span>
+                                </div>
+                                <div class="group">
+                                    <label class="arrange-horizontal">Tags:</label>
+                                    <span id="portfolio-project-entry-1-tags">Documentation;Compilation;Notes</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br/>
+
+                    <div id="portfolio-project-entry-2" class="portfolio-project-entries font-bold box max-width-half visible-text">
+                        <!-- Set current portfolio project entry's attributes and definitions -->
+                        <p id="portfolio-project-entry-2-name" class="font-bold text-position-center">Project Name here</p>
+                        <div class="container">
+                            <div class="font-bold box">
+                                <img id="portfolio-project-entry-2-screenshots">Screenshot prototype here</img>
+                            </div>
+                            <div class="box" style="text-align: left; width: 50%;">
+                                <p id="portfolio-project-entry-2-url">Project URL here</p>
+                                <p id="portfolio-project-entry-2-description">Project Description here</p>
+                                <p id="portfolio-project-entry-2-tags">Project Tags here</p>
+                                <p id="portfolio-project-entry-2-category">Project Category here</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br/>
+
+                    <div id="portfolio-project-entry-3" class="portfolio-project-entries font-bold box max-width-half visible-text">
+                        <!-- Set current portfolio project entry's attributes and definitions -->
+                        <div class="container">
+                            <div class="font-bold box">
+                                <p id="portfolio-project-entry-3-name">Project Name here</p>
+                            </div>
+
+                            <div class="box" style="text-align: left; width: 50%;">
+                                <p id="portfolio-project-entry-3-url">Project URL here</p>
+                                <p id="portfolio-project-entry-3-description">Project Description here</p>
+                                <p id="portfolio-project-entry-3-tags">Project Tags here</p>
+                                <p id="portfolio-project-entry-3-category">Project Category here</p>
+                                <img id="portfolio-project-entry-3-screenshots">Screenshot prototype here</img>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br/>
+
+            <div id="portfolio-contacts" class="max-width-fill">
+                <!--
+                    Contacts Page
+                -->
+                <h2 class="text-position-center">Contacts</h2>
+
+                <div class="portfolio-containers visible-text">
+                    <div class="group arrange-horizontal">
+                        <label class="text-position-center">Email:</label>
+                        <span><a id="contact-email" class="arrange-horizontal" style="margin-right: 20px;" type="email" href="jjzaclim@gmail.com">jjzaclim@gmail.com</a></span>
+                    </div>
+                    <div class="group">
+                        <label class="text-position-center">LinkedIn:</label>
+                        <span><a id="contact-linkedin" style="margin-bottom: 10px;" type="email" href="#">Linkedin</a></span>
+                    </div>
+                </div>
+            </div>
+
+            <br/>
+
+            <div id="portfolio-blog">
+                <!--
+                    Blog page
+                -->
+                <h2 class="text-position-center">Top 5 Newest Blog Posts and Archives</h2>
+
+                <div class="portfolio-containers visible-text">
+                    <ol>
+                        <li><a href="pages/blog/posts/2024-09-21/1606H.html">2024-09-21 1606H - Initial Commit</a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <hr/>
+
+    <!--
+        Footer
+    -->
+    <footer id="portfolio-footer" class="font-bold">
+        <div class="footer">
+            <a href="https://github.com/Thanatisia"><h3>GitHub</h3></a>
+            <a href="#"><h3>LinkedIn</h3></a>
+        </div>
+        <h6 style="text-align: right;";>Made in pure HTML5 CSS3 Javascript</h6>
+    </footer>
+</html>
+
