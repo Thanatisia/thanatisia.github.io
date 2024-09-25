@@ -70,3 +70,23 @@
     - Updated pages/site 'index.html', 'src/pages/about-me.html', 'src/pages/blog/posts/2024-09-21/1606H.html', 'src/pages/blog/table-of-contents.html'
         + Updated path from static to relative path
 
+#### 2053H
+- New
+    - Added new blog post for date '2024-09-25' in 'src/pages/blog/posts/'
+        + Added new blog post entry '1553H.html'
+- Updates
+    - Updated document 'README.md'
+        + Added documentations and screenshots
+    - Updated webpage 'index.html'
+        + Migrated section 'about-me' from about-me.html back to index page
+        + Modified style to align a group of components side-by-side
+        + Added several portfolio projects
+    - Updated CSS stylesheet 'index.css' in 'src/assets/style/'
+        + Added new CSS class
+    - Updated webpage '1606H.html' in 'src/pages/blog/posts/2024-09-21/'
+        + Updated redirecting to about-us
+        + Changed br tag to hr tag
+    - Updated document 'table-of-contents.html' in 'src/pages/blog/'
+        + Updated redirecting to about-us
+        + Changed br tag to hr tag
+
