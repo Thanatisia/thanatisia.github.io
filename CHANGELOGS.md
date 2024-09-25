@@ -65,3 +65,8 @@
     - Updated pages/sites 'src/pages/about-me.html', 'src/pages/blog/posts/2024-09-21/1606H.html', 'src/pages/blog/table-of-contents.html'
         + Replaced path to index.html
 
+#### 1127H
+- Updates
+    - Updated pages/site 'index.html', 'src/pages/about-me.html', 'src/pages/blog/posts/2024-09-21/1606H.html', 'src/pages/blog/table-of-contents.html'
+        + Updated path from static to relative path
+
