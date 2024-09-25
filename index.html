@@ -17,7 +17,7 @@
         <div id="portfolio-Navbar" class="font-bold top-navbar sticky">
             <!-- Navigation Bar -->
             <a href="index.html" class="active">Home</a>
-            <a href="/src/pages/about-me.html">About Me</a>
+            <a href="#portfolio-about-me">About Me</a>
             <a href="#portfolio-projects">Projects</a>
             <a href="#portfolio-contacts">Contacts</a>
             <a href="/src/pages/blog/table-of-contents.html">Blog Posts and Archives</a>
@@ -54,6 +54,76 @@
 
             <br/>
 
+            <div id="portfolio-about-me">
+                <!--
+                    About Me
+                -->
+                <h2 class="text-position-center">About Me</h2>
+
+                <div class="portfolio-containers">
+                    <h3>Education</h3>
+                    <div id="portfolio-education" class="visible-text">
+                        <ul>
+                            <!--
+                                Unordered List for listing down my education
+                            -->
+                            <li>
+                                <!-- List entry for University -->
+                                <div id="portfolio-education-university">
+                                    <p>From 2022 to 2023 (Graduated), I graduated from the (Double) Degree in Bachelors of Computer Science (Digital Systems Security and Cyber Security) from the University of Wollongong</p>
+                                    <p>Subtopics and subjects:</p>
+                                    <ul>
+                                        <li>Advanced Programming</li>
+                                        <li>System Administration and Database Systems</li>
+                                        <li>Ethical Hacking</li>
+                                        <li>Cryptography</li>
+                                        <li>Network Security</li>
+                                        <li>etc</li>
+                                    </ul>
+                                    <p>Programming Languages and frameworks (not all):</p>
+                                    <ul>
+                                        <li>C/C++</li>
+                                        <li>C# - ASP.NET (Dotnet framework)</li>
+                                        <li>HTML5, CSS3, Javascript (NodeJS)</li>
+                                        <li>PHP</li>
+                                        <li>SQL (MySQL etc)</li>
+                                        <li>NoSQL (MongoDB etc)</li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li>
+                                <!-- List entry for Polytechnic -->
+                                <div id="portfolio-education-polytechnic">
+                                    <p>From 2015 to 2018 (Graduated), I enrolled into Nanyang Polytechnic for the Diploma in Engineering Informatics course, in which, we did Computer Science topics primarily involving 3 major components: Software Development (Programming), Computer Networking and IT Logistics in the form of Enterprise Resource Planning and the likes.</p>
+                                    <p>Subtopics and subjects:</p>
+                                    <ul>
+                                        <li>IoT Microframework and Embedded programming via microcontroller electronic boards</li>
+                                        <li>Programming Fundamentals, Data Structures and Algorithm and Object Oriented Programming</li>
+                                        <li>System Administration and Server Engineering modules</li>
+                                        <li>Database Systems</li>
+                                        <li>Computer Networking Fundamentals</li>
+                                        <li>Cybersecurity Fundamentals</li>
+                                    </ul>
+                                    <p>Programming Languages and frameworks (not all):</p>
+                                    <ul>
+                                        <li>C++</li>
+                                        <li>C# - ASP.NET (Dotnet framework)</li>
+                                        <li>HTML5, CSS3, Javascript (NodeJS)</li>
+                                        <li>SQL</li>
+                                        <li>Java</li>
+                                        <li>XML</li>
+                                    </ul>
+                                    <p>During the final year, I took a specialisation in Mobile Programming (Android) using Java and XML as its core backend and frontend languages respectively.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <br/>
+
             <div id="portfolio-projects" style="width: 100%">
                 <!--
                     Portfolio Projects
@@ -68,17 +138,10 @@
                         <a href="https://github.com/Thanatisia/SharedSpace" id="portfolio-project-entry-1-name" class="font-bold text-position-left">GitHub - Thanatisia/SharedSpace</p></a>
                         <div class="container">
                             <!--
-                                Flex box for Screenshots
-                            -->
-                            <div class="font-bold box">
-                                <img id="portfolio-project-entry-1-screenshots">Screenshot prototype here</img>
-                            </div>
-
-                            <!--
                                 Flex box for description
                             -->
                             <div class="box text-position-left">
-                                <p class="text-position-center">Description</p>
+                                <p class="text-position-center underline">Description</p>
                                 <p id="portfolio-project-entry-1-description" class="text-position-left">Complete compilation/compendium of documentations for various topics and categories to be a one-stop-shop reference</p>
                             </div>
 
@@ -86,13 +149,13 @@
                                 Flex box for project metadata
                             -->
                             <div id="portfolio-project-entry-1-metadata" class="box text-position-left max-width-half">
-                                <div class="group">
-                                    <label class="arrange-horizontal" style="margin-bottom: 10px;">Category:</label>
-                                    <span id="portfolio-project-entry-1-category">Documentation</span>
+                                <div class="component-align-side">
+                                    <label class="arrange-horizontal">Category:</label>
+                                    <label id="portfolio-project-entry-1-category">Documentation</label>
                                 </div>
-                                <div class="group">
-                                    <label class="arrange-horizontal">Tags:</label>
-                                    <span id="portfolio-project-entry-1-tags">Documentation;Compilation;Notes</span>
+                                <div class="component-align-side">
+                                    <label>Tags:</label>
+                                    <label id="portfolio-project-entry-1-tags">Documentation;Compilation;Notes</label>
                                 </div>
                             </div>
                         </div>
@@ -102,16 +165,28 @@
 
                     <div id="portfolio-project-entry-2" class="portfolio-project-entries font-bold box max-width-half visible-text">
                         <!-- Set current portfolio project entry's attributes and definitions -->
-                        <p id="portfolio-project-entry-2-name" class="font-bold text-position-center">Project Name here</p>
+                        <a id="portfolio-project-entry-2-name" class="font-bold text-position-left" href="https://github.com/Thanatisia/distinstall-python">GitHub - Thanatisia/distinstall-python</p></a>
                         <div class="container">
-                            <div class="font-bold box">
-                                <img id="portfolio-project-entry-2-screenshots">Screenshot prototype here</img>
+                            <!--
+                                Flex box for description
+                            -->
+                            <div class="box text-position-left">
+                                <p class="text-position-center underline">Description</p>
+                                <p id="portfolio-project-entry-2-description" class="text-position-left">A Universal Distribution Install library/framework currently written in Python</p>
                             </div>
-                            <div class="box" style="text-align: left; width: 50%;">
-                                <p id="portfolio-project-entry-2-url">Project URL here</p>
-                                <p id="portfolio-project-entry-2-description">Project Description here</p>
-                                <p id="portfolio-project-entry-2-tags">Project Tags here</p>
-                                <p id="portfolio-project-entry-2-category">Project Category here</p>
+
+                            <!--
+                                Flex box for project metadata
+                            -->
+                            <div id="portfolio-project-entry-1-metadata" class="box text-position-left max-width-half">
+                                <div class="component-align-side">
+                                    <label class="arrange-horizontal">Category:</label>
+                                    <label id="portfolio-project-entry-1-category">Framework</label>
+                                </div>
+                                <div class="component-align-side">
+                                    <label>Tags:</label>
+                                    <label id="portfolio-project-entry-1-tags">Framework;Python;ArchLinux;Linux</label>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -120,17 +195,28 @@
 
                     <div id="portfolio-project-entry-3" class="portfolio-project-entries font-bold box max-width-half visible-text">
                         <!-- Set current portfolio project entry's attributes and definitions -->
+                        <a href="https://github.com/Thanatisia/makefile-parser-python" id="portfolio-project-entry-3-name" class="font-bold text-position-left">GitHub - Thanatisia/makefile-parser-python</p></a>
                         <div class="container">
-                            <div class="font-bold box">
-                                <p id="portfolio-project-entry-3-name">Project Name here</p>
+                            <!--
+                                Flex box for description
+                            -->
+                            <div class="box text-position-left">
+                                <p class="text-position-center underline">Description</p>
+                                <p id="portfolio-project-entry-3-description" class="text-position-left">A simple Makefile Parser written in Python that is designed to simplify the process of importing Makefile contents into python as dictionary (key-value mappings (i.e. hashmap/associative arrays)) objects</p>
                             </div>
 
-                            <div class="box" style="text-align: left; width: 50%;">
-                                <p id="portfolio-project-entry-3-url">Project URL here</p>
-                                <p id="portfolio-project-entry-3-description">Project Description here</p>
-                                <p id="portfolio-project-entry-3-tags">Project Tags here</p>
-                                <p id="portfolio-project-entry-3-category">Project Category here</p>
-                                <img id="portfolio-project-entry-3-screenshots">Screenshot prototype here</img>
+                            <!--
+                                Flex box for project metadata
+                            -->
+                            <div id="portfolio-project-entry-3-metadata" class="box text-position-left max-width-half">
+                                <div class="component-align-side">
+                                    <label class="arrange-horizontal">Category:</label>
+                                    <label id="portfolio-project-entry-3-category">Parser</label>
+                                </div>
+                                <div class="component-align-side">
+                                    <label>Tags:</label>
+                                    <label id="portfolio-project-entry-3-tags">Python;Parser;Makefile</label>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -168,6 +254,7 @@
                 <div class="portfolio-containers visible-text">
                     <ol>
                         <li><a href="/src/pages/blog/posts/2024-09-21/1606H.html">2024-09-21 1606H - Initial Commit</a></li>
+                        <li><a href="/src/pages/blog/posts/2024-09-25/1553H.html">2024-09-25 1553H - Deployment</a></li>
                     </ol>
                 </div>
             </div>
