@@ -6,9 +6,20 @@
 @import './constants.css';
 @import './designs.css';
 
+/* Import CSS styles from URL */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 /* Tags */
 body {
     background-color: var(--cerulean);
+}
+
+ul.inline li {
+    /*
+     * Overload/Override the properties/attributes of the 'li' tag when used within 'ul'
+     */
+    display: inline; /* Set the display as inline (same line) */
+    list-style: none; /* Set the style of display when writing a list */
 }
 
 /*
@@ -265,6 +276,107 @@ body {
     font-family: monospace;
 }
 
+.font-family-spacemono-h1 {
+    /*
+     * Set the font family to SpaceMono monospace
+     */
+    font-family: "Space Mono",monospace;
+    font-size: 2em;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.font-family-spacemono-h2 {
+    /*
+     * Set the font family to SpaceMono monospace
+     */
+    font-family: "Space Mono",monospace;
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.font-family-spacemono-h3 {
+    /*
+     * Set the font family to SpaceMono monospace
+     */
+    font-family: "Space Mono",monospace;
+    font-size: 1.17em;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.font-family-spacemono-h4 {
+    /*
+     * Set the font family to SpaceMono monospace
+     */
+    font-family: "Space Mono",monospace;
+    font-size: 1em;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.font-family-spacemono-h5 {
+    /*
+     * Set the font family to SpaceMono monospace
+     */
+    font-family: "Space Mono",monospace;
+    font-size: 0.83em;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.font-family-spacemono-h6 {
+    /*
+     * Set the font family to SpaceMono monospace
+     */
+    font-family: "Space Mono",monospace;
+    font-size: 0.67em;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.font-family-spacemono-p {
+    /*
+     * Set the font family to SpaceMono monospace with the size of the font set to the default size for the '<p>' tag
+     */
+    font-family: "Space Mono",monospace;
+    font-size: 0.875em;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.font-default {
+    /*
+     * Remove the border around the text
+     */
+    font-weight: normal;
+}
+
 .font-bold {
     /*
      * Add a border around the text to make the word "popup"
@@ -305,6 +417,15 @@ body {
 	 * Underline the text
 	 */
 	text-decoration: underline;
+}
+
+.fading {
+    /*
+     * Set the opacity to fade
+     */
+    font-size: 1em;
+    letter-spacing: -0.011em;
+    opacity: var(--fade-heading);
 }
 
 /*

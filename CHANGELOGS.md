@@ -2,6 +2,7 @@
 
 ## Table of Contents
 + [2024-09-25](#2024-09-25)
++ [2024-11-06](#2024-11-06)
 
 ## Entries
 
@@ -89,4 +90,13 @@
     - Updated document 'table-of-contents.html' in 'src/pages/blog/'
         + Updated redirecting to about-us
         + Changed br tag to hr tag
+
+### 2024-11-06
+#### 2150H
+- Updates
+    - Updated CSS Stylesheet 'constants.css' in 'src/assets/style/'
+        + Added new variables
+    - Updated CSS Stylesheet 'index.css' in 'src/assets/style/'
+        + Imported new dependency - external font 'SpaceMono'
+        + Added new classes for SpaceMono fonts
 
